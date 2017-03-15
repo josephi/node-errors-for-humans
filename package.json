@@ -1,0 +1,24 @@
+{
+  "name": "node-error-for-humans",
+  "version": "0.0.1",
+  "description": "Add to Error class `toHumans()` function to get a more detailed error reason from nodejs error, in case the Error object is not a nodejs Error, returns the toString() message  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha .\\tests\\test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/josephi/node-errors-for-humans"
+  },
+  "keywords": [
+    "nodejs",
+    "errors",
+    "humans",
+    "errors for humans"
+  ],
+  "author": "Joseph Israel",
+  "license": "MIT",
+  "dependencies": {
+    "require-dir": "^0.3.1"
+  }
+}
